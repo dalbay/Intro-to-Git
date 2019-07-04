@@ -5,25 +5,25 @@ Summary of edureka devops certification training on youtube: https://www.youtube
 ### *Create Repositories*
   1. Create Central Repository on GitHub
   2. Create Local Repository
-    * Install Git on your local machine
-    * Create a folder on your local machine which will serve as the repo. Inside this folder, right click anywhere and select ‘Git Bash’ –       this will open-up Git Emulator (Terminal).
-    * If you are working on a new project --- **$ git init**
+     * Install Git on your local machine
+     * Create a folder on your local machine which will serve as the repo. Inside this folder, right click anywhere and select ‘Git Bash’ –       this will open-up Git Emulator (Terminal).
+     * If you are working on a new project --- **$ git init**
       (this will create a .git folder inside your local repository)
-    * If you are joining a project use --- **$ git clone** 
+     * If you are joining a project use --- **$ git clone** 
 ### *Sync Repositories*
-  Add your central repository as your origin to your local repository --- **$ git remote add origin “[link]”**  
+  Add your central repository as your origin to your local repository ---**$ git remote add origin “[link]”**  
   (Click on the green “Clone or Download” button inside the central repository for the link.)
 ### *Fetch all files into your local*
-  Updating your local repository      --- **$ git pull origin master**
+  Updating your local repository --- **$ git pull origin master**
 ### *Making Changes*
-  1. Add to Index
-    * Adding a single file to your index:  --- **$ git add test_file.txt**
-    * Adding multiple changes all at once: --- **$ git add -A
-  2. Commit - "snapshot of the repository"
-    * Commit a single file  	--- **$ git commit -m "folder name changed"**
-    * Commit multiple changes --- **$ git commit –a –m “adding 3 files”**
-  3. Lookup your commits/snapshots 
-     Git stores all commits   --- **$ git log**
+  1. *Add to Index*
+     * Adding a single file to your index:  --- **$ git add test_file.txt**
+     * Adding multiple changes all at once: --- **$ git add -A
+  2. *Commit* - "snapshot of the repository"
+     * Commit a single file --- **$ git commit -m "folder name changed"**
+     * Commit multiple changes --- **$ git commit –a –m “adding 3 files”**
+  3. *Lookup your commits/snapshots* 
+     Git stores all commits --- **$ git log**
 
 ### *Branching*
   *Why branching* - Let’s say you want to add new features on to the main branch. You want to work on those new feature individually and you don’t want to interfere with the master branch - create a branch.
