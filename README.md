@@ -8,7 +8,7 @@ Summary of edureka devops certification training on youtube: https://www.youtube
      * Install Git on your local machine
      * Create a folder on your local machine which will serve as the repo. Inside this folder, right click anywhere and select ‘Git Bash’ –       this will open-up Git Emulator (Terminal).
      * If you are working on a new project --- **$ git init**
-      (this will create a .git folder inside your local repository)
+       (this will create a .git folder inside your local repository)
      * If you are joining a project use --- **$ git clone** 
 ### *Sync Repositories*
   Add your central repository as your origin to your local repository ---**$ git remote add origin “[link]”**  
@@ -30,18 +30,18 @@ Summary of edureka devops certification training on youtube: https://www.youtube
   Branches are pointers to a specific commit. There are two types of branches:
   - Remote-tracking branches – are branches that is  going to connect your local branches to your central repository.
   - Local branches – you create only in your workspace.
-  * Lists all local branches in the current repository	**$ git branch**
-  * Creates a new branch        --- **$ git branch [branch-name]**
-  * Switch/move around branches --- **$ git checkout [branch-name]**
+    * Lists all local branches in the current repository	**$ git branch**
+    * Creates a new branch        --- **$ git branch [branch-name]**
+    * Switch/move around branches --- **$ git checkout [branch-name]**
 ### *Merging*
 After you have create a new branch and developed a new feature in this branch, you need to merge it to add it to the project.
   - It is a way to combine the work of different branches together.
   - Allows to branch off, develop a new feature & combine it back in.
 Now, merge the branches(folder) that you have created in the master branch. (Make sure you checkout in the destination branch(master))
-  * Merge branches  ---   **$ git merge [branch]**
-To view the changes in the file in the terminal (make sure you are checkout in the same branch)
+    * Merge branches  ---  **$ git merge [branch]**
 	* View the changes   ---  **$ cat [filename]**
-*Note – you need to merge the branch to the master after any type modification/changes. After merging, you can ls the files when your are in the destination folder.*
+	Note - To view the changes in the terminal, make sure you are checkout in the same branch.
+	Note – You need to merge the branch to the master after any type modification/changes. After merging, you can ls the files when your are in the destination folder.*
 ### *Git Push – ‘To Central Repository’*
 Once we have completed all changes we want to contribute the final draft to our central repository.
   * Push the changes to the central repository (from local master to central repo) ---	**$ git push origin master**
