@@ -1,2 +1,2 @@
-# Intro-to-Git
+# Intro-to-Git-GitHub
 Summary of edureka devops certification training on youtube: https://www.youtube.com/watch?v=xuB1Id2Wxak
