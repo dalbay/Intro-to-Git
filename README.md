@@ -43,9 +43,9 @@ Now, merge the branches(folder) that you have created in the master branch. (Mak
 Note - To view the changes in the terminal, make sure you are checkout in the same branch.
 Note – You need to merge the branch to the master after any type modification/changes. After merging, you can ls the files when your are in the destination folder.
 ### *Git Push – ‘To Central Repository’*
-Once we have completed all changes we want to contribute the final draft to our central repository.
-* Push the changes to the central repository (from local master to central repo) --- **$ git push origin master**
-* Push the changes into different branch (not interfere with master branch). --- **$ git push origin firstbranch**
-	Note: Make sure you checkout and work on the repository you just created (firstbranch).
-* Roll-back to previous version of a commit ---  **$ git checkout [first 8 hexdig] [filename]**
-(First, check your git log for the previous version - *$ git log*, and copy the commit hash (the first 8 hexa digits)).
+  Once we have completed all changes we want to contribute the final draft to our central repository.
+  * Push the changes to the central repository (from local master to central repo) ---**$ git push origin master**
+  * Push the changes into different branch (not interfere with master branch). ---**$ git push origin firstbranch**
+  Note: Make sure you checkout and work on the repository you just created (firstbranch).
+  * Roll-back to previous version of a commit ---**$ git checkout [first 8 hexdig] [filename]**
+  (First, check your git log for the previous version *$ git log*, and copy the commit hash (the first 8 hexa digits)).
