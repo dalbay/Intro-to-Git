@@ -49,4 +49,5 @@ Note – You need to merge the branch to the master after any type modification/
   
   Note: Make sure you checkout and work on the repository you just created (firstbranch).
   * Roll-back to previous version of a commit ---**$ git checkout [first 8 hexdig] [filename]**
+  
   (First, check your git log for the previous version *$ git log*, and copy the commit hash (the first 8 hexa digits)).
