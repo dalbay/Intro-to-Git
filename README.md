@@ -6,10 +6,9 @@ Summary of edureka devops certification training on youtube: https://www.youtube
   1. Create Central Repository on GitHub
   2. Create Local Repository
      * Install Git on your local machine
-     * Create a folder on your local machine which will serve as the repo. Inside this folder, right click anywhere and select ‘Git Bash’ –       this will open-up Git Emulator (Terminal).
-     * If you are working on a new project --- **$ git init**
-	 (this will create a .git folder inside your local repository)
-     * If you are joining a project use --- **$ git clone** 
+     * Create a folder on your local machine which will serve as the repo. Inside this folder, right click anywhere and select ‘Git Bash’ – this will open-up Git Emulator (Terminal).
+     * New project (this will create a .git folder inside your local repository)--- **$ git init**	 
+     * Joining an existing project --- **$ git clone** 
 ### *Sync Repositories*
   Add your central repository as your origin to your local repository ---**$ git remote add origin “[link]”**  
   (Click on the green “Clone or Download” button inside the central repository for the link.)
@@ -40,6 +39,7 @@ After you have create a new branch and developed a new feature in this branch, y
 Now, merge the branches(folder) that you have created in the master branch. (Make sure you checkout in the destination branch(master))
     * Merge branches  ---  **$ git merge [branch]**
 	* View the changes   ---  **$ cat [filename]**
+	
 Note - To view the changes in the terminal, make sure you are checkout in the same branch.
 Note – You need to merge the branch to the master after any type modification/changes. After merging, you can ls the files when your are in the destination folder.
 ### *Git Push – ‘To Central Repository’*
