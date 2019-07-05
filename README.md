@@ -39,7 +39,8 @@ After you have create a new branch and developed a new feature in this branch, y
 Now, merge the branches(folder) that you have created in the master branch. (Make sure you checkout in the destination branch(master))
     * Merge branches  ---  **$ git merge [branch]**
 	* View the changes   ---  **$ cat [filename]**	
-*Notes*
+	
+*Notes:*
 - To view the changes in the terminal, make sure you are checkout in the same branch.
 - You need to merge the branch to the master after any type modification/changes.
 - After merging, you can ls the files when your are in the destination folder.
@@ -51,4 +52,4 @@ Now, merge the branches(folder) that you have created in the master branch. (Mak
   Note: Make sure you checkout and work on the repository you just created (firstbranch).
   * Roll-back to previous version of a commit ---**$ git checkout [first 8 hexdig] [filename]**
   
-  (First, check your git log for the previous version *$ git log*, and copy the commit hash (the first 8 hexa digits)).
+  Note: First, check your log for the previous version *$ git log*, and copy the commit hash (the first 8 hexa digits).
