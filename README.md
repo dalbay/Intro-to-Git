@@ -50,4 +50,3 @@ Once we have completed all changes we want to contribute the final draft to our 
   (Make sure you checkout to the repository you just created (firstbranch).)
   * Roll-back to previous version of a commit ---  **$ git checkout [first 8 hexdig] [filename]**
   (First, check your git log for the previous version - *$ git log*, and copy the commit hash (the first 8 hexa digits)).
-
