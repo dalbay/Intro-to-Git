@@ -38,10 +38,11 @@ After you have create a new branch and developed a new feature in this branch, y
   - Allows to branch off, develop a new feature & combine it back in.
 Now, merge the branches(folder) that you have created in the master branch. (Make sure you checkout in the destination branch(master))
     * Merge branches  ---  **$ git merge [branch]**
-	* View the changes   ---  **$ cat [filename]**
-	
-Note - To view the changes in the terminal, make sure you are checkout in the same branch.
-Note – You need to merge the branch to the master after any type modification/changes. After merging, you can ls the files when your are in the destination folder.
+	* View the changes   ---  **$ cat [filename]**	
+*Notes*
+- To view the changes in the terminal, make sure you are checkout in the same branch.
+- You need to merge the branch to the master after any type modification/changes.
+- After merging, you can ls the files when your are in the destination folder.
 ### *Git Push – ‘To Central Repository’*
   Once we have completed all changes we want to contribute the final draft to our central repository.
   * Push the changes to the central repository (from local master to central repo) ---**$ git push origin master**
